@@ -12,6 +12,7 @@ Need to have Phantom.js and GhostScript installed
 
 ### Running ###
 
-    phantomjs html2pdf.js && gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/printer -dNOPAUSE -dQUITE -dBATCH -sOutputFile=output.pdf output.pdf 
+    phantomjs ~/dev/app-pdf/html2pdf.js && gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/printer -dNOPAUSE -dQUITE -dBATCH -sOutputFile=output2.pdf output.pdf 
+
 
 
